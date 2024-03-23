@@ -1,26 +1,19 @@
-# EndlessRunnerGame
+# EndlessOceanRunner
 # Overview
 
-This is an endless runner game I developed using Unity. The game features a character
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Using Unity, I developed this endless runner game called "Endless Ocean Runner." The game features a fish navigating through the ocean while dodging predators and collecting treasures. The goal is to survive as long as possible and gather as much treasure as you can. To play the game, the player controls the fish's movement using the up and down arrow keys. The fish automatically moves forward with the game screen. 
 
-{Provide a description the game that you wrote. Describe how to play your game.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
+My purpose for developing this software was to learn how to program in Unity and increase my skills in game development. While creating this endless ocean runner game, my aim was to deepen my understanding of fundamental game mechanics and improve my ability to design engaging user interfaces. 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Development Platform: Unity
+* Programming Language: C#
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Unity Download](https://unity.com/download)
 * [Unity Resources](https://unity.com/resources)
 * [Endless Runner Game Unity Tutorial](https://www.youtube.com/watch?v=U3sT-T5bKX4)
@@ -30,7 +23,6 @@ This is an endless runner game I developed using Unity. The game features a char
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
+* 
 * Item 2
 * Item 3
