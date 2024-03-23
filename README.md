@@ -20,6 +20,8 @@
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
+* [Unity Download](https://unity.com/download)
+* [Unity Resources](https://unity.com/resources)
 * [Endless Runner Game Unity Tutorial](https://www.youtube.com/watch?v=U3sT-T5bKX4)
 * [Unity Collision Detection](https://gamedevelopertips.com/unity-collision-detection-2d/)
 * [Connecting Unity to GitHub](https://www.youtube.com/watch?v=sjlVox4f5Ww)
