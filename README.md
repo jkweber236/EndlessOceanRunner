@@ -23,6 +23,7 @@ My purpose for developing this software was to learn how to program in Unity and
 
 # Future Work
 
-* 
-* Item 2
-* Item 3
+* Add functionality to the scoring system to include points earned from collecting coins
+* Enhance the graphics by adding an ocean themed background 
+* Incorporate character animations to bring more life to the game
+* Introduce levels to enhance replayability 
