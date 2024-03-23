@@ -924,6 +924,7 @@ Transform:
   - {fileID: 1071108642}
   - {fileID: 1694069422}
   - {fileID: 911512089}
+  - {fileID: 1998298524}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &548477732
@@ -1223,6 +1224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9088e077f11bf5b4c8049a7c78e850a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: {fileID: 2270934560772935678, guid: a4f01625ae2b4b746852a03282085903, type: 3}
   scoreText: {fileID: 964381062}
   highScoreText: {fileID: 1017163739}
   endScoreText: {fileID: 2138353912}
@@ -2062,6 +2064,58 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1998298523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998298524}
+  - component: {fileID: 1998298525}
+  m_Layer: 0
+  m_Name: Spawn Coins
+  m_TagString: Coin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1998298524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998298523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 548477731}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998298525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998298523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685cdde2d4908c42b914f6dcd778466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2270934560772935678, guid: a4f01625ae2b4b746852a03282085903, type: 3}
+  maxX: 12
+  minX: 11
+  maxY: 3
+  minY: -1
+  timeBetweenSpawn: 0
+  minTime: 5
+  maxTime: 10
 --- !u!1 &2033264935
 GameObject:
   m_ObjectHideFlags: 0

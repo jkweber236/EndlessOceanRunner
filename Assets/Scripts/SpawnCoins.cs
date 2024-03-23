@@ -2,27 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObstacles : MonoBehaviour
+public class SpawnCoins : MonoBehaviour
 {
-    // Array of obstacle game objects to spawn
-    public GameObject[] obstacles;
+    public GameObject coin;
 
-    // Range for spawning obstacles 
+    // Range for spawning coins 
     public float maxX;
     public float minX;
     public float maxY;
     public float minY;
 
     // Time variables for controlling spawning frequency
-    public float timeBetweenSpawn; 
+    public float timeBetweenSpawn;
     public float minTime;
     public float maxTime;
     private float spawnTime;
 
-    // Update is called once per frame
+    // Start is called before the first frame update
     void Update()
     {
-        // Check if it's time to spawn a new obstacle
+        // Check if it's time to spawn a coin
         if (Time.time > spawnTime)
         {
             // Call the Spawn method
@@ -30,10 +29,11 @@ public class SpawnObstacles : MonoBehaviour
 
             // Set the next spawn time using a random range
             spawnTime = Time.time + Random.Range(minTime, maxTime);
+
         }
     }
 
-    // Method to spawn obstacles
+    // Method to spawn coins
     void Spawn()
     {
 
@@ -41,11 +41,7 @@ public class SpawnObstacles : MonoBehaviour
         float randomX = Random.Range(minX, maxX);
         float randomY = Random.Range(minY, maxY);
 
-        // Choose a random obstacle from the obstacles array
-        int obstacleIndex = Random.Range(0, obstacles.Length);
-
-        // Place the selected obstacle at the selected location
-        Instantiate(obstacles[obstacleIndex], transform.position + new Vector3(randomX, randomY, 0), transform.rotation);
-
+        // Place a coin at the selected location
+        Instantiate(coin, transform.position + new Vector3(randomX, randomY, 0), transform.rotation);
     }
 }
